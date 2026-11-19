@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Họ và tên"
+        android:inputType="textCapWords"
+        android:maxLines="1"/>
+
+    <EditText
+        android:id="@+id/etCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mã sinh viên"
+        android:inputType="textCapCharacters"
+        android:maxLines="1"/>
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"/>
+
+    <EditText
+        android:id="@+id/etGpa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Điểm GPA (0 - 4)"
+        android:inputType="numberDecimal"
+        android:maxLines="1"/>
+
+</LinearLayout>

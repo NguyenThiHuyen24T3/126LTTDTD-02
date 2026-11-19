@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.StudentMVVM"
+        parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <item name="colorPrimary">#356AE6</item>
+        <item name="colorPrimaryVariant">#244DB5</item>
+        <item name="colorSecondary">#16865B</item>
+        <item name="android:statusBarColor">#244DB5</item>
+        <item name="android:navigationBarColor">#FFFFFF</item>
+        <item name="android:windowLightNavigationBar">true</item>
+
+    </style>
+</resources>
